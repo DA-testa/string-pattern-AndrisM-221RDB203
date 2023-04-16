@@ -20,7 +20,7 @@ def read_input():
         return input().rstrip(), input().rstrip()
 
     if "F" in datatype:
-        filepath="tests/"+input()
+        filepath="tests/06"
         with open(filepath, "r") as f:
             return f.readline().rstrip(), f.readline().rstrip()
 
